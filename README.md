@@ -1,52 +1,24 @@
-# React + TypeScript + Vite
+<h1>Aplikacija za organizovanje muzičkih festivala i koncerata</h1>
+FesiFind je web aplikacija koja pruža korisnicima da pretražuju ponuđene mnoge Evropske muzičke festivale.<br></br>
+Aplikacija omogućava pretragu pretragu muzičkih festivala po imenu i/ili žanru muzike.<br></br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pored ovih informacija, korisnici mogu da pogledaju i Blog stranicu u kojoj mogu saznati o informacije novim dešavanjima i vestima vezanih za festivale<br></br>
 
-Currently, two official plugins are available:
+Aplikacija nudi i funkcionalnu kontakt stranicu preko koje korisnici mogu kontaktirati kreatore aplikacije.<br></br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+U ponudu su i stranice za prijavu (login) i registraciju (signup)<br></br>
 
-## Expanding the ESLint configuration
+Za izradu aplikacije korišćene su tehnologije React, Vite, TypeScript i TailWindCSS<br></br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h1>Pokretanje projekta:</h1>
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-"# festifind-app" 
-# festifind-app
+1. Kloniranje aplikacije
+<br></br>
+   ```bash
+   git clone git@github.com:elab-development/klijentske-veb-tehnologije-2024-2022-0273-veb-aplikacija-za-festivale.git
+3. Instaliranje potrebnih package-a
+   ```bash
+   npm install
+5. Pokretanje aplikacije
+   ```bash
+   npm run dev
