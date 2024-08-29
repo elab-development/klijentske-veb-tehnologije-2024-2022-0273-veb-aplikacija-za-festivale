@@ -3,6 +3,7 @@ import Layout from './layout/Layout';
 import { useEffect } from 'react';
 import { Home } from './pages/home/Home';
 import Contact from './pages/Contact';
+import Blog from './pages/Blog';
 function App() {
 
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="blog" element={<Blog />} />
         </Route>
       </Routes>
     </Router>
