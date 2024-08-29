@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { festival } from '../data/festival';
 import { Festival } from '../types/festivals';
 import Search from './Search';
+import { Card } from './Card';
 
 export const SearchCards = () => {
     const [searchFestivals, setSearchFestivals] = useState('');
@@ -37,6 +38,14 @@ export const SearchCards = () => {
     return (
         <>
             <Search onSearch={handleSearch} onSelected={handleSelect}/>
+            {
+                filteredFestivals?.length > 0
+                ? 
+                <Card searchCards={filteredFestivals} />
+                :   <div className='text-2xl my-10'>
+                        No festivals found!
+                    </div>
+            }
         </>
     )
 }
