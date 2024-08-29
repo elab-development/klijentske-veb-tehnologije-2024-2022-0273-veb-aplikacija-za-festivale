@@ -1,7 +1,7 @@
 import { Routes, BrowserRouter as Router, Route } from 'react-router-dom';
 import Layout from './layout/Layout';
 import { useEffect } from 'react';
-import Home from './pages/home/Home';
+import { Home } from './pages/home/Home';
 
 function App() {
 
