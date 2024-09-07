@@ -63,7 +63,7 @@ export const festival: Festival[] = [
         location: "Somerset, England",
         completed: true,
         image1: "/src/assets/img/glastonburyimg1.jpg",
-        image2: "/src/assets/img/glas",
+        image2: "/src/assets/img/glastonburyimg2.jpg",
         text: "Glastonbury is one of the most famous festivals in Europe and is famous for its diverse lineup and vibrant atmosphere, returns in 2024 for five days of non-stop music and entertainment. Legendary past headliners have included the likes of Beyoncé, Jay-Z and Coldplay (multiple times), along with a plethora of other artists spanning various genres from rock to electronic, Glastonbury promises an iconic European music festival experience for attendees wanting to listen to a little bit of everything. Tickets are notoriously hard to get so make sure you get organised months in advance or be prepared to shell out to get your hands on a pair of tickets."},
     {
         id: 6,
