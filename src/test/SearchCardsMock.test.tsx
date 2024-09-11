@@ -5,7 +5,7 @@ import { SearchCards } from '../components/SearchCards';
 import { AuthProvider } from '../context/AuthContext';
 import { BrowserRouter } from 'react-router-dom';
 
-// Mock podaci festivala
+
 vi.mock('../data/festival', () => ({
   festival: [
     {
