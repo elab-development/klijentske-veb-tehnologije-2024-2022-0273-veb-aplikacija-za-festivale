@@ -1,8 +1,8 @@
 <h1>Aplikacija za organizovanje muzičkih festivala i koncerata</h1>
-FesiFind je web aplikacija koja pruža korisnicima da pretražuju mnoge ponuđene Evropske muzičke festivale.<br></br>
+FesiFind je web aplikacija koja pruža korisnicima da pretražuju mnoge ponuđene evropske muzičke festivale.<br></br>
 Aplikacija omogućava pretragu muzičkih festivala po imenu i/ili žanru muzike, a zatim i pregled informacija o pojedinačnom festivalu. kao i čitanje i ostavljanje recenzija. <br></br>
 
-Pored ovih informacija, korisnici mogu da pogledaju i Blog stranicu u kojoj mogu saznati o informacije novim dešavanjima i vestima vezanih za njihove najomiljenije događaje<br></br>
+Pored ovih informacija, korisnici mogu da pogledaju i Blog stranicu preko koje mogu saznati najnovija dešavanja i vesti vezane za njihove najomiljenije događaje<br></br>
 
 Aplikacija uključuje kontakt stranicu koja omogućava korisnicima da lako komuniciraju sa kreatorima aplikacije. Kroz ovu stranicu, korisnici mogu poslati poruke, postaviti pitanja ili izložiti sugestije direktno timu za podršku. Forma za kontakt je jednostavna za korišćenje i omogućava brzu i efikasnu interakciju.<br></br>
 
