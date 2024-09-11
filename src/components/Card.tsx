@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { Festival } from "../types/festivals"
 import { FestivalItem } from "./FestivalItem";

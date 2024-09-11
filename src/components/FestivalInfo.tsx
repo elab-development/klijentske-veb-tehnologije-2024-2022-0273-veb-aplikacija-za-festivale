@@ -58,9 +58,9 @@ const FestivalInfo = ({ festival }: FestivalInfoProps) => {
             </div>
             <hr className="my-10" />
 
-            {user && (
-                <div className="flex flex-row justify-between">
-                <section className="text-center w-1/2">
+            
+            <div className="flex flex-row justify-center">
+                {user && (<section className="text-center w-1/2">
                     <h1 className="my-4 font-bold text-xl">Leave Review:</h1>
                     <form className="flex flex-col text-center items-center">
                         <textarea
@@ -88,7 +88,7 @@ const FestivalInfo = ({ festival }: FestivalInfoProps) => {
                             Add review
                         </button>
                     </form>
-                </section>
+                </section>)}
                 <section className="w-1/2 text-center my-4 flex flex-col items-center">
                     <div>
                         <h1 className='text-xl font-bold'>Reviews:</h1>
@@ -110,7 +110,7 @@ const FestivalInfo = ({ festival }: FestivalInfoProps) => {
                         </div>
                     ))}
                 </section>
-            </div>)}
+            </div>
         </div>
     );
 };

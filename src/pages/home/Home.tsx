@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { SearchCards } from '../../components/SearchCards';
 import { useAuth } from '../../context/AuthContext';
+import Greet from '../../components/Greet';
 
 export const Home: React.FC = () => {
   const { user } = useAuth();
@@ -13,9 +14,7 @@ export const Home: React.FC = () => {
         <p className="text-xl">
           Your go-to app for finding the hottest music festivals and concerts around the globe.
         </p>
-        {user && (
-          <p className="text-lg mt-4">Welcome back, {user}!</p>
-        )}
+        <Greet name={user} />
       </div>
       <SearchCards />
       <div className="mt-8">

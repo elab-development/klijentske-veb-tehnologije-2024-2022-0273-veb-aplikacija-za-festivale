@@ -1,3 +1,4 @@
+import React from "react";
 import { Festival } from "../types/festivals";
 
 interface FestivalItemProps {

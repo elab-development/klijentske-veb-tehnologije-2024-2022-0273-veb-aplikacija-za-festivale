@@ -12,7 +12,7 @@ class Reviews implements IReviews {
   public reviews: Review[] = [];
   public id: number = 0;
 
-  addReview(festivalId: number, review: string, rating: number) {
+  public addReview(festivalId: number, review: string, rating: number) {
     const id: number = this.id;
     const newReview: Review = {
       id,
@@ -25,7 +25,7 @@ class Reviews implements IReviews {
     this.id = id + 1;
   }
 
-  averageRating(festivalId: number): number {
+  public averageRating(festivalId: number): number {
     const festivalReviews = this.reviews.filter(review => review.festivalId === festivalId);
   
     if (festivalReviews.length === 0) {
