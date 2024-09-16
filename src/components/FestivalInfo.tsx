@@ -3,7 +3,7 @@ import { Festival } from '../types/festivals';
 import SliderImage from './SliderImage';
 import Reviews from '../data/reviews';
 import { useAuth } from '../context/AuthContext';
-import { CalendarIcon, MapPinIcon, MusicalNoteIcon } from '@heroicons/react/24/solid';
+import { CalendarIcon, LinkIcon, MapPinIcon, MusicalNoteIcon } from '@heroicons/react/24/solid';
 import { StarIcon } from '@heroicons/react/24/outline';
 
 interface FestivalInfoProps {
@@ -25,6 +25,10 @@ const FestivalInfo = ({ festival }: FestivalInfoProps) => {
 
         const average = review.averageRating(festival.id);
         setAverageRating(average);
+    };
+
+    const handleClick = () => {
+        window.open(festival.url);
     };
 
     return (
@@ -49,6 +53,9 @@ const FestivalInfo = ({ festival }: FestivalInfoProps) => {
                         <div className='flex items-center my-2'>
                             <MusicalNoteIcon className='w-7 h-7 mr-2'/>
                             Genre:<strong>{festival.type}</strong>
+                        </div>
+                        <div className='items-center my-2'>
+                            <button className="flex items-center mt-4 px-4 py-2 font-bold bg-white text-black rounded-3xl" onClick={handleClick}><span>Buy tickets</span><LinkIcon className='w-4 h-4 md:w-7 md:h-7 m-1'/></button>
                         </div>
                     </div>
                 </div>

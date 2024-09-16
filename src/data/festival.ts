@@ -12,6 +12,7 @@ export const festival: Festival[] = [
         completed: false, 
         image1: "/src/assets/img/exitimg1.jpg",
         image2: "/src/assets/img/exitimg2.jpg",
+        url: 'https://www.exitfest.org/en/tickets',
         text: "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. The EU Festival Awards are considered as one of the most influential festival awards in the world. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017."
     },
     {
@@ -25,6 +26,7 @@ export const festival: Festival[] = [
         completed: true,
         image1: "/src/assets/img/tomorrowlandimg1.jpeg",
         image2: "/src/assets/img/tomorrowlandimg2.jpeg",
+        url: 'https://belgium.tomorrowland.com/en/tickets/',
         text: "Tomorrowland, the world's biggest electronic dance music festival, spans two weekends in July, offering a lineup of the biggest names in EDM. From Tiësto to Martin Garrix, and David Guetta to Calvin Harris, the EU music festival showcases an electrifying array of DJs and producers across its iconic stages, accompanied by stunning visual displays and immersive experiences."
     },
     {
@@ -38,6 +40,7 @@ export const festival: Festival[] = [
         completed: true,
         image1: "/src/assets/img/primaveraimg1.jpeg",
         image2: "/src/assets/img/primaveraimg2.jpeg",
+        url: 'https://www.primaverasound.com/en/tickets',
         text: "Primavera Sound takes over Barcelona's Parc del Fòrum for five days of indie and alternative music excellence. This year's lineup boasts headliners such as A.G. Cook, FKA Twigs, and Lana Del Rey, alongside a diverse array of up-and-coming acts from around the globe. With its picturesque seaside location and eclectic mix of genres, Primavera Sound is a must-attend festival for music lovers of all tastes."
     },
     {
@@ -51,6 +54,7 @@ export const festival: Festival[] = [
         completed: true,
         image1: "/src/assets/img/beachpleaseimg1.jpg",
         image2: "/src/assets/img/beachpleaseimg2.jpg",
+        url: 'https://tickets.beach-please.ro/',
         text: "Set against the stunning backdrop of Romania’s picturesque coast, the Beach Please! Festival is a vibrant celebration of music, culture, and beachside bliss. Held annually on the sun-drenched shores of the Black Sea, this festival has quickly become one of Romania’s premier summer events, drawing music lovers and festival-goers from across Europe and beyond."
     },
     {   
@@ -64,6 +68,7 @@ export const festival: Festival[] = [
         completed: true,
         image1: "/src/assets/img/glastonburyimg1.jpg",
         image2: "/src/assets/img/glastonburyimg2.jpg",
+        url: 'https://www.glastonburyfestivals.co.uk/information/tickets/',
         text: "Glastonbury is one of the most famous festivals in Europe and is famous for its diverse lineup and vibrant atmosphere, returns in 2024 for five days of non-stop music and entertainment. Legendary past headliners have included the likes of Beyoncé, Jay-Z and Coldplay (multiple times), along with a plethora of other artists spanning various genres from rock to electronic, Glastonbury promises an iconic European music festival experience for attendees wanting to listen to a little bit of everything. Tickets are notoriously hard to get so make sure you get organised months in advance or be prepared to shell out to get your hands on a pair of tickets."},
     {
         id: 6,
@@ -76,6 +81,7 @@ export const festival: Festival[] = [
         completed: true,
         image1: "/src/assets/img/szigetimg1.jpg",
         image2: "/src/assets/img/szigetimg2.jpg",
+        url: 'https://szigetfestival.com/en/tickets/',
         text: "Next on our list of the best festivals in Europe for 2024 is Sziget Festival, held on the picturesque Óbuda Island in Budapest, which transforms into an eclectic musical playground for seven days of incredible performances. With headliners such as Halsey, Stormzy, and Skrillex, alongside a diverse lineup of artists spanning rock, pop, electronic, and world music, Sziget offers an immersive cultural experience like no other."
     },
     {
@@ -89,6 +95,7 @@ export const festival: Festival[] = [
         completed: true,
         image1: "/src/assets/img/rockwerchterimg1.jpg",
         image2: "/src/assets/img/rockwerchterimg2.jpg",
+        url: 'https://www.rockwerchter.be/en/',
         text: "Rock Werchter, Belgium's premier rock music festival, returns with four days of electrifying performances from some of the biggest names in rock and alternative music. With headliners such as Pearl Jam, Green Day, and Red Hot Chili Peppers, alongside a stellar lineup of established and emerging artists, Rock Werchter promises an unforgettable weekend of high-energy music and camaraderie."
     },
     {
@@ -102,6 +109,7 @@ export const festival: Festival[] = [
         completed: true,
         image1: "/src/assets/img/sunriseimg1.jpg",
         image2: "/src/assets/img/sunriseimg2.jpg",
+        url: 'https://sunrisefestival.pl/en/',
         text: "Poland may not seem like the first place that comes to mind when you think about a European music festival in the sun but prepare to dance the days away as Sunrise Festival returns to the stunning Baltic coast of Poland for three days of non-stop partying on the beach. This electrifying Polish music festival brings together top international music acts including James Hype and Lily Palmer, alongside a lineup of renowned DJs and producers. With its sun-drenched beaches, pulsating beats, and infectious energy, Sunrise Festival promises an unforgettable weekend of dance music, sunshine, and seaside vibes."
     },
 ]

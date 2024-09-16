@@ -9,5 +9,6 @@ export interface Festival {
     completed: boolean;
     image1: string;
     image2: string;
+    url: string;
     text: string;
 }
