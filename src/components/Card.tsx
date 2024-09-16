@@ -32,22 +32,28 @@ export const Card = ({searchCards, }: CardProps) => {
                         </Link>
                     ))}
             </div>
-            <div className='border-8 rounded-3xl py-4 px-8 my-10 w-1/2'>
-                <div className='text-center items-center flex flex-col'>
-                    <h1>Omiljeni festivali: </h1>
+            {
+                favoritesList.length > 0 ? (
+                <div className='border-8 rounded-3xl py-4 px-8 my-10 w-1/2'>
+                    <div className='text-center items-center flex flex-col'>
+                        <h1>Omiljeni festivali: </h1>
+                    </div>
+                    <div>
+                        {
+                            favoritesList.map((favorite) => (
+                                <div key={favorite.id}>
+                                    <h1>{favorite.name}</h1>
+                                    <hr/>    
+                                </div>
+                                
+                            ))
+                        }
+                    </div>
                 </div>
-                <div>
-                    {
-                        favoritesList.map((favorite) => (
-                            <div key={favorite.id}>
-                                <h1>{favorite.name}</h1>
-                                <hr/>    
-                            </div>
-                            
-                        ))
-                    }
-                </div>
-            </div>
+                ) : (<div className="my-2">
+                        <h1 className="font-bold text-md">Add to see Favorites</h1>
+                    </div>)
+            }
         </>
     )
 }
